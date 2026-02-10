@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Landing Page</title>
+    <link rel="stylesheet" href="web.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__shade"></div>
+
+      <header class="nav">
+        <div class="nav__logo">NETFLIX</div>
+        <div class="nav__actions">
+          <button class="lang" type="button" aria-label="Choose language">
+            <span class="lang__icon">✶</span>
+            English
+            <span class="lang__chev">▾</span>
+          </button>
+          <a class="signin" href="#">Sign In</a>
+        </div>
+      </header>
+
+      <main class="hero__content">
+        <h1>Unlimited movies, shows, and more</h1>
+        <p class="hero__sub">Starts at &#8377;149. Cancel at any time.</p>
+        <p class="hero__prompt">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form class="email-form" action="#">
+          <input type="email" placeholder="Email address" />
+          <button type="submit">Get Started <span aria-hidden="true">›</span></button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
